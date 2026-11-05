@@ -38,6 +38,8 @@ console.log(a)
 let b = 100
 
 
+
+
 // let b = 200     //Re-Declaration is not allowed
 
 
@@ -165,3 +167,6 @@ console.log(arr)
 //property
 obj.company = "Tcs"
 console.log( obj )
+
+console.log(arr.length)  // Returns the number of elements in the array
+console.log(Object.keys(obj))  // Returns the object's property names
